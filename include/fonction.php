@@ -27,7 +27,7 @@ function htmlHeader(string $title,string $style):void{
     <?php
 }
 
-function bsAlert(string $content,string $type='primary'):void{
+function bsAlert(string $content,string $type='primary'){
     echo "<div class='alert alert-$type' role='alert'>$content</div>";
 }
 

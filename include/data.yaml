@@ -1,4 +1,5 @@
-- 1er message: 'primary'
-- Second message: warning
-- 3ème message: danger
-- Autre message d'info: info
+1er message: danger
+Second message: warning
+3ème message: success
+Autre message d'info: info
+une derniere...: primary
