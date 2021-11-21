@@ -11,9 +11,13 @@ function getHeader(string $title) {
         <body>
         
     </html>
+    <?php
 }
+?>
 <?php
 function getFooter(){
     ?>
     </body>
+    <?php
 }
+?>
