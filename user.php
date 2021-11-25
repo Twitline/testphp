@@ -1,2 +1,2 @@
 <?php
-$user=$_POST['name'];
+$_SESSION['user']=$_POST['user'];
