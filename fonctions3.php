@@ -1,5 +1,8 @@
 <?php
-function getHeader(string $title) {
+function getHeader($startSession,string $title) {
+    if($startSession){
+        session_start();
+    }
     ?>
     <!DOCTYPE html>
     <html>
@@ -13,8 +16,8 @@ function getHeader(string $title) {
     </html>
     <?php
 }
-?>
-<?php
+
+
 function getFooter(){
     ?>
     </body>
