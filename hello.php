@@ -6,7 +6,7 @@
 <h1>Du Php</h1>
 <p><?php
     $date=date("D d M Y");
-    echo "Salut ! <br>";
+    echo "Bonjour <br>";
     echo "Nous sommes le <b>{$date}</b>";
 ?>
 </p>
