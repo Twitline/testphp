@@ -18,5 +18,6 @@ require_once "fonctions3.php";
 </form>
 <?php
 if (isset($_POST['r1'])){
-    echo($_POST['r1']);
+    $_SESSION['navigateur']=$_POST['r1'];
+    echo($_SESSION['navigateur']);
 }
